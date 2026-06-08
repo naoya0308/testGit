@@ -11,6 +11,7 @@ public class App {
     public static void main(String[] args) {
         GameManager gameManager = GameManagerFactory.create();
 
+        // 理想的なつくりではないかもしれない
         // ゲームを開始
         gameManager.start();
     }
